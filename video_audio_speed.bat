@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -f:a atempo=1.25 output.mp3
