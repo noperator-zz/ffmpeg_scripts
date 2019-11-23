@@ -1,1 +1,0 @@
-FOR /F "tokens=*" %%G IN ('dir /b *.mp4') DO ffmpeg -i "%%G" -f:a atempo=1.25 "output/%%~nG.mp3"
